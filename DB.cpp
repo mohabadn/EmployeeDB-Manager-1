@@ -18,6 +18,7 @@ void createIndex(const char* fName) {
 
     ifstream empFile(fName);
     ofstream out("index.txt");
+    /*adafaefa*/
 
     if (!empFile.is_open())
     {

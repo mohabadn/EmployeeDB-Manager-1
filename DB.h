@@ -17,5 +17,6 @@ void displayAllRecords(const char* fName);
 void backupDatabase(const char* fName);
 bool validateInput(int id, int age, const char* name);
 void sortRecords(const char* fName, int sortField);
+void displayMenu();
 
 #endif
